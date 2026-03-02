@@ -1,4 +1,4 @@
-# 🍲 Recipe API -- FastAPI Project
+#  Recipe API -- FastAPI Project
 
 A fully functional RESTful Recipe API built using FastAPI, featuring JWT
 authentication, CRUD operations, and SQLite database integration.
@@ -9,7 +9,7 @@ structuring.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+##  Features
 
 -   User Registration & Login\
 -   JWT Authentication\
@@ -23,7 +23,7 @@ structuring.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 -   FastAPI\
 -   SQLAlchemy\
@@ -35,41 +35,33 @@ structuring.
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
 
-recipe_api/ │ ├── app/ │ ├── routers/ │ ├── static/ │ ├── config.py │
-├── database.py │ ├── main.py │ ├── models.py │ ├── oauth2.py │ ├──
-schemas.py │ └── utils.py │ ├── requirements.txt ├── .env.example ├──
-.gitignore └── README.md
+##  Installation & Setup
 
-------------------------------------------------------------------------
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 git clone https://github.com/YOUR_USERNAME/recipe-api.git\
 cd recipe-api
 
-### 2️⃣ Create Virtual Environment
+### 2. Create Virtual Environment
 
 python -m venv .venv
 
-### 3️⃣ Activate Virtual Environment (Windows PowerShell)
+### 3. Activate Virtual Environment (Windows PowerShell)
 
 ..venv`\Scripts`{=tex}`\Activate`{=tex}.ps1
 
-### 4️⃣ Install Dependencies
+### 4. Install Dependencies
 
 pip install -r requirements.txt
 
-### 5️⃣ Create .env File
+### 5. Create .env File
 
 SECRET_KEY=your_secret_key_here\
 ALGORITHM=HS256\
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 
-### 6️⃣ Run the Server
+### 6. Run the Server
 
 uvicorn app.main:app --reload
 
@@ -79,14 +71,14 @@ http://127.0.0.1:8000
 
 ------------------------------------------------------------------------
 
-## 📘 API Documentation
+##  API Documentation
 
 Swagger UI → http://127.0.0.1:8000/docs\
 ReDoc → http://127.0.0.1:8000/redoc
 
 ------------------------------------------------------------------------
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 1.  Register a user\
 2.  Login to get JWT token\
@@ -95,7 +87,7 @@ ReDoc → http://127.0.0.1:8000/redoc
 
 ------------------------------------------------------------------------
 
-## 🧠 Learning Outcomes
+##  Learning Outcomes
 
 -   REST API Design\
 -   Authentication & Authorization\
@@ -106,11 +98,10 @@ ReDoc → http://127.0.0.1:8000/redoc
 
 ------------------------------------------------------------------------
 
-## 👩‍💻 Author
+## Author
 
 Anjali Maurya\
 Computer Science Student \| Backend Developer
 
 ------------------------------------------------------------------------
-
-⭐ If you found this project useful, consider giving it a star!
+ If you found this project useful, consider giving it a star!
